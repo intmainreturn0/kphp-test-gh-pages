@@ -1,0 +1,37 @@
+title: My compiler
+lang: en
+description: My compiler — awesome compiler for every languages
+
+remote_theme: false
+theme: jekyll-rtd-theme
+edit: false
+
+github:
+  repository_url: https://github.com/VKCOM/kphp-test-gh-pages
+  issues_url: https://github.com/VKCOM/kphp-test-gh-pages/issues
+
+copyright:
+  revision: false
+author: LLC «V Kontakte»
+github_metadata: false
+
+addons: []
+
+# sort
+readme_index:
+  with_frontmatter: true
+
+sass:
+  style: compressed
+
+exclude:
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+  - .idea
+
+#show_sorted: false
+
+# optional plugins
+plugins: []
+
