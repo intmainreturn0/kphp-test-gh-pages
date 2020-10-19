@@ -2,8 +2,7 @@ title: My compiler
 lang: en
 description: My compiler — awesome compiler for every languages
 
-remote_theme: false
-theme: jekyll-rtd-theme
+remote_theme: rundocs/jekyll-rtd-theme
 edit: false
 
 github:
