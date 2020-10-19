@@ -30,7 +30,7 @@ Concern [the decicated page](../my-compiler-language/comparison/benchmarks.md).
 Just read the faq.
 
 <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-    <a href="/my-compiler-basics/faq.html" class="btn btn-neutral float-right" accesskey="n" rel="next">
+    <a href="{{ site.baseurl }}/my-compiler-basics/faq.html" class="btn btn-neutral float-right" accesskey="n" rel="next">
       Next: read FAQ <span class="fa fa-arrow-circle-right"></span>
     </a>
 </div>

@@ -23,10 +23,13 @@
                         {%- capture href -%}
                             {{ site.baseurl }}/{% for block in blocks limit: forloop.index %}{{ block | append: "/" }}{% endfor %}
                         {%- endcapture %}
+                        {%- capture rel_href -%}
+                            /{% for block in blocks limit: forloop.index %}{{ block | append: "/" }}{% endfor %}
+                        {%- endcapture %}
                         <li>
                             {%- assign parent_title = block -%}
                             {%- for lookup_page in site.pages -%}
-                                {% if lookup_page.url == href %}
+                                {% if lookup_page.url == rel_href %}
                                     {%- assign parent_title = lookup_page.title -%}
                                 {% endif %}
                             {%- endfor -%}
