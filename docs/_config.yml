@@ -2,12 +2,8 @@ title: My compiler
 lang: en
 description: My compiler — awesome compiler for every languages
 
-remote_theme: rundocs/jekyll-rtd-theme
+remote_theme: rundocs/jekyll-rtd-theme@v1.1.7
 edit: false
-
-github:
-  repository_url: https://github.com/VKCOM/kphp-test-gh-pages
-  issues_url: https://github.com/VKCOM/kphp-test-gh-pages/issues
 
 copyright:
   revision: false
